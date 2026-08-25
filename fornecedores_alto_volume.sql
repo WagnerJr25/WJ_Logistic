@@ -1,0 +1,8 @@
+use WJ_Logistic
+select fornecedor.nome_empresa, sum (Entrada_mercadoria.valor_total) as total_vendido_fornecedor
+from fornecedor
+inner join Entrada_mercadoria
+on Entrada_mercadoria.id_fornecedor = fornecedor.id_fornecedor
+group by fornecedor.nome_empresa
+having sum (Entrada_mercadoria.valor_total) > 10000
+order by total_vendido_fornecedor desc
