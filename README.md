@@ -11,3 +11,14 @@ Com sede em Salvador (BA), seu centro de distribuição é responsável pelo arm
 Com o crescimento da WJ Logistic, o aumento do volume de produtos movimentados pelo Centro de Distribuição trouxe desafios relacionados ao controle de estoque, à localização das mercadorias e ao acompanhamento dos pedidos.
 
 A empresa necessita de um sistema centralizado para melhorar a gestão das operações logísticas e garantir maior eficiência nos processos de armazenamento e distribuição.
+
+## OBJETIVO
+
+Utilizar SQL e Power BI para analisar os dados da operação logística e gerar informações que possam auxiliar na gestão e na tomada de decisões.
+
+## TECNOLOGIAS
+
+- SQL Server
+- SQL
+- Power BI
+- GitHub
